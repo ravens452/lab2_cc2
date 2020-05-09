@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		766940D9246672D10081A783 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 766940D8246672D10081A783 /* main.cpp */; };
+		766940F0246672F10081A783 /* Ejercicio_1_Iterativa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 766940E7246672F10081A783 /* Ejercicio_1_Iterativa.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,15 @@
 
 /* Begin PBXFileReference section */
 		766940D5246672D10081A783 /* lab_2_CC2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab_2_CC2; sourceTree = BUILT_PRODUCTS_DIR; };
-		766940D8246672D10081A783 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		766940DF246672F10081A783 /* Ejercicio_4_Recursiva.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_4_Recursiva.cpp; sourceTree = "<group>"; };
+		766940E0246672F10081A783 /* Ejercicio_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_3.cpp; sourceTree = "<group>"; };
+		766940E1246672F10081A783 /* Ejercicio_4_Iterativa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_4_Iterativa.cpp; sourceTree = "<group>"; };
+		766940E2246672F10081A783 /* Ejercicio_6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_6.cpp; sourceTree = "<group>"; };
+		766940E3246672F10081A783 /* Ejercicio_2_Recursiva.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_2_Recursiva.cpp; sourceTree = "<group>"; };
+		766940E4246672F10081A783 /* Ejercicio_1_Recursiva.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_1_Recursiva.cpp; sourceTree = "<group>"; };
+		766940E5246672F10081A783 /* Ejercicio_5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_5.cpp; sourceTree = "<group>"; };
+		766940E6246672F10081A783 /* Ejercicio_2_Iterativa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_2_Iterativa.cpp; sourceTree = "<group>"; };
+		766940E7246672F10081A783 /* Ejercicio_1_Iterativa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ejercicio_1_Iterativa.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,15 @@
 		766940D7246672D10081A783 /* lab_2_CC2 */ = {
 			isa = PBXGroup;
 			children = (
-				766940D8246672D10081A783 /* main.cpp */,
+				766940E7246672F10081A783 /* Ejercicio_1_Iterativa.cpp */,
+				766940E4246672F10081A783 /* Ejercicio_1_Recursiva.cpp */,
+				766940E6246672F10081A783 /* Ejercicio_2_Iterativa.cpp */,
+				766940E3246672F10081A783 /* Ejercicio_2_Recursiva.cpp */,
+				766940E0246672F10081A783 /* Ejercicio_3.cpp */,
+				766940E1246672F10081A783 /* Ejercicio_4_Iterativa.cpp */,
+				766940DF246672F10081A783 /* Ejercicio_4_Recursiva.cpp */,
+				766940E5246672F10081A783 /* Ejercicio_5.cpp */,
+				766940E2246672F10081A783 /* Ejercicio_6.cpp */,
 			);
 			path = lab_2_CC2;
 			sourceTree = "<group>";
@@ -119,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766940D9246672D10081A783 /* main.cpp in Sources */,
+				766940F0246672F10081A783 /* Ejercicio_1_Iterativa.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
