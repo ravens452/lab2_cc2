@@ -12,19 +12,19 @@
 using namespace std;
 
 
-void longitudArray(int array[], int tam){
-    int aux=0;
-    for(int i = 0; i < tam; i++){
-        aux++;
-    }
-    cout<<aux<<endl;
+int longitud(char cadena[])
+{
+   int acum = 0;
+   while( cadena[acum] != '\0' ) //mientras no sea fin de cadena
+       acum++;
+   return acum;
 }
-
 
 
 int main(){
-    int arreglo[] = {3,1,8,4,5,9,7};
-    int tam = 7;
-    longitudArray(arreglo, tam);
- 
-}
+
+    char cadena[30];
+    cout<<"¿Cuál es la cadena? "<<endl;
+    cin>>cadena;
+    cout<<"Tu nombre tiene "<<longitud(cadena)<<" letras";
+ }
