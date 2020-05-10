@@ -26,7 +26,7 @@ void ordenarArray(int array[], int tam){
     for(int i = 0; i < tam; i++){
         cout << "{" << array[i] << "} ";
     }
-    cout << "Fin!" << endl;
+    cout << endl;
 }
 
 
