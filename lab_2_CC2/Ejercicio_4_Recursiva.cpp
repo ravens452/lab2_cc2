@@ -12,12 +12,11 @@
 using namespace std;
 
 
-void longitudArray(int array[], int tam){
-    int aux=0;
-    for(int i = 0; i < tam; i++){
-        aux++;
-    }
-    cout<<aux<<endl;
+int longitudArray(int A[], int N)
+{
+    if (N <= 0)
+        return 0;
+    return (longitudArray(A, N - 1) + 1);
 }
 
 
@@ -25,6 +24,6 @@ void longitudArray(int array[], int tam){
 int main(){
     int arreglo[] = {3,1,8,4,5,9,7};
     int tam = 7;
-    longitudArray(arreglo, tam);
+    cout<<"La longitud del array es: "<<longitudArray(arreglo, tam)<<endl;
  
 }
