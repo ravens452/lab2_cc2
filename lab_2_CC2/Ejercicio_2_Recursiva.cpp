@@ -10,16 +10,16 @@
 #include <iostream>
 using namespace std;
 
-void invertirArray (int arrayA[], int tam){
+void invertirArray (int arrayA[], int tam){ //Entrada el array y su tamaño
     if(tam <= 1){
         return;
     }else{
-        int tem ;
+        int tem ; //Creamos una variable temporal
         int i=0;
-        tem = arrayA[i];
-        arrayA[i] = arrayA[tam-1];
-        arrayA[tam-1] = tem;
-        invertirArray(&arrayA[1], tam-2);
+        tem = arrayA[i]; //guardamos el valor de posicion 0 en el auxiliar
+        arrayA[i] = arrayA[tam-1]; //el comienzo toma el valor del final
+        arrayA[tam-1] = tem;       // el final toma el valor del auxiliar
+        invertirArray(&arrayA[1], tam-2); //recursion
     }
 }
 int main(){

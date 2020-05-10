@@ -12,7 +12,7 @@
 using namespace std;
 
 
-int longitud(char cadena[])
+int longitud(char cadena[]) //Entrada de la cadena
 {
    int acum = 0;
    while( cadena[acum] != '\0' ) //mientras no sea fin de cadena
@@ -26,5 +26,5 @@ int main(){
     char cadena[30];
     cout<<"¿Cuál es la cadena? "<<endl;
     cin>>cadena;
-    cout<<"Tu nombre tiene "<<longitud(cadena)<<" letras";
+    cout<<"La cadena tiene "<<longitud(cadena)<<" letras";
  }

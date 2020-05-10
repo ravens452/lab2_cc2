@@ -10,12 +10,12 @@
 //Implementar una función que invierta los elementos de un arreglo de enteros (Iterativa y recursiva).
 #include <iostream>
 using namespace std;
-void invertirArray (int arrayA[], int tam){
-    int arrayB[tam];
+void invertirArray (int arrayA[], int tam){ //Entrada de array y su tamaño
+    int arrayB[tam];  //Creamos el array que tendra los nuevos valores de respuesta
     for (int i=0;i<tam;i++){
-        arrayB[i] = arrayA[tam-(i+1)];
+        arrayB[i] = arrayA[tam-(i+1)]; //Copiamos el ultimo del array original al nuevo array B.
     }
-    for (int i=0; i<tam; i++) {
+    for (int i=0; i<tam; i++) { //Imprimimos el nuevo array B
         cout<<" "<<arrayB[i];
     }
     cout<<endl;

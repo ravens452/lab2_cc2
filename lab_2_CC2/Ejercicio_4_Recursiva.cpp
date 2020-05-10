@@ -14,6 +14,7 @@ using namespace std;
 
 int longitudArray(int A[], int N)
 {
+    int acum =0;
     if (N <= 0)
         return 0;
     return (longitudArray(A, N - 1) + 1);

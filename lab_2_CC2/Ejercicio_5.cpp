@@ -15,15 +15,15 @@ using namespace std;
 int longitud(char cadena[])
 {
    int acum = 0;
-   while( cadena[acum] != '\0' ) //mientras no sea fin de cadena
+   while( cadena[acum] != '\0' )        //mientras no sea fin de cadena
        acum++;
-   return acum;
+   return acum;                         //Retorna el tamaño de la cadena
 }
-void insertarCadena(char    cadenaA[],char cadenaB[]){
+void insertarCadena(char cadenaA[],char cadenaB[]){
     int tam1 = longitud(cadenaB);
     int a=0;
-    for (int i = tam1; i<50; i++) {
-        cadenaB[i] = cadenaA[a];
+    for (int i = tam1; i<50; i++) {     //recorremos desde el final de la cadena B hasta 50
+        cadenaB[i] = cadenaA[a];        //Le agregamos la cadena A por iteracion.
         a++;
     }
     
@@ -36,5 +36,5 @@ int main(){
     cout<<"Escriba la cadena a: "<<endl;cin>>a;
     cout<<"Escriba la cadena b: "<<endl;cin>>b;
     insertarCadena(a, b);
-    cout<<"LACADENA UNIDA ES: "<<b<<endl;
+    cout<<"La cadena concatenada es: "<<b<<endl;
 }

@@ -11,10 +11,10 @@
 #include <iostream>
 using namespace std;
 
-int sumar (int array[], int n){
-    int suma = 0;
-    for (int i=0;i<n;suma += array[i++]);
-    return suma;
+int sumar (int array[], int n){ //Entrada de array y su tamaño
+    int suma = 0; //Declaramos la suma inicial 0
+    for (int i=0;i<n;suma += array[i++]); //Recorremos todos los elementos del array
+        return suma;
 }
 int main(){
     int array[] = {1,2,3,4,5,6,7};
